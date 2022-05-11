@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./mainMenu.css" />
+    <link rel="stylesheet" type="text/css" href="../nullstyle.css" />
+    <title>Tender</title>
+  </head>
+  <body>
+    <nav class="img">
+      <div class="left">
+        <div class="logo">
+          <img class="icon" src="../pics/logo.png" />
+          <div id="logo-text">EzTender</div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="main-nav">Главная</div>
+        <div class="katalog">Каталог исполнителей</div>
+        <div class="tender">Тендерная площадка</div>
+        <div class="lichn-kab">Личный кабинет</div>
+        <div class="sign">Войти →</div>
+      </div>
+    </nav>
+    <!--  -->
+    <div class="container-kab">
+      <div class="pD">Личные данные</div>
+      <div class="tenders">Открытые тендеры</div>
+    </div>
+    <!--  -->
+    <div class="personal-data-cont">
+      <div class="flex">
+        <div class="name">Логин: <span class="log"></span></div>
+        <input class="inp" placeholder="Введите логин" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">Пароль: <span class="pas"></span></div>
+        <input class="inp" type="password" placeholder="Введите новый пароль" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">Компания: <span class="company"></span></div>
+        <input class="inp" placeholder="Введите название" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">Город: <span class="city"></span></div>
+        <input class="inp" placeholder="Введите название" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">Представитель: <span class="pred"></span></div>
+        <input class="inp" placeholder="Введите ФИО" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">e-mail: <span class="email"></span></div>
+        <input type="email" class="inp" placeholder="Введите email" />
+        <button class="chnge">Изменить</button>
+      </div>
+      <div class="flex">
+        <div class="name">Контактный телефон:<span class="tel"></span></div>
+        <input type="tel" class="inp" placeholder="Введите номер" />
+        <button class="chnge">Изменить</button>
+      </div>
+    </div>
+    <!--  -->
+    <table class="tender-table">
+      <tr class="title-table">
+        <th>Название тендера</th>
+        <th>Размещено</th>
+        <th>Город</th>
+        <th>Цена</th>
+        <th>Начало приёма заявок</th>
+        <th>Окончание приёма</th>
+        <th>Файлы</th>
+        <th>Заявка</th>
+      </tr>
+      <tr>
+        <th>
+          Организация и проведение тех мероприятий холдинговой компании "Nile"
+        </th>
+        <th>01.01.2022</th>
+        <th>Вильнюс</th>
+        <th>190 000 USD</th>
+        <th>12.01.2022</th>
+        <th>27.05.2022</th>
+        <th>holding.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+      <tr>
+        <th>Услуги бизнес-планирования</th>
+        <th>07.05.2022</th>
+        <th>Брест</th>
+        <th>12 000 USD</th>
+        <th>12.05.2022</th>
+        <th>27.06.2022</th>
+        <th>Приложение.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+      <tr>
+        <th>Разработка бизнес-плана для торгового агента "STAGE"</th>
+        <th>07.05.2022</th>
+        <th>Брест</th>
+        <th>1 000 USD</th>
+        <th>12.05.2022</th>
+        <th>27.06.2022</th>
+        <th>Приложение.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+      <tr>
+        <th>
+          Аудиторские услуги по проведению обязательного аудита головой
+          бухгалтерской отчетности за 2021 год
+        </th>
+        <th>12.04.2022</th>
+        <th>Минск</th>
+        <th>15 000 USD</th>
+        <th>12.04.2022</th>
+        <th>24.05.2022</th>
+        <th>Audit.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+      <tr>
+        <th>Оказание услуги по независимой оценке (Культура)</th>
+        <th>02.02.2022</th>
+        <th>Могилёв</th>
+        <th>8 600 USD</th>
+        <th>03.02.2022</th>
+        <th>14.08.2022</th>
+        <th>culture.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+      <tr>
+        <th>
+          Услуги по страхованию гражданской ответственности владельцев авто
+        </th>
+        <th>01.03.2022</th>
+        <th>Гродно</th>
+        <th>27 370 USD</th>
+        <th>05.03.2022</th>
+        <th>16.07.2022</th>
+        <th>Страхование.txt</th>
+        <th><button class="btn-zayav">Оставить заявку</button></th>
+      </tr>
+    </table>
+    <footer>
+      <table class="footer-contacts">
+        <tr>
+          <th class="contactsth">Контакты для частных клиентов</th>
+          <th class="contactsth">Контакты для бизнес-клиентов</th>
+        </tr>
+        <tr>
+          <th class="skiny contactsth">Городской и мобильный номер</th>
+          <th class="skiny contactsth">A1 MTS Life :)</th>
+          <th class="skiny contactsth">Мы в соцсетях</th>
+        </tr>
+        <tr class="a">
+          <th>
+            <div><img src="../pics/tel1.png" /></div>
+            <div class="numb">148</div>
+          </th>
+          <th>
+            <div><img src="../pics/tel2.png" /></div>
+            <div class="numb">5-146-728</div>
+          </th>
+          <th>
+            <div class="to">
+              <img class="fb contactsth" src="../pics/fb.png" />
+              <img class="inst contactsth" src="../pics/inst.png" /><img
+                class="vk contactsth"
+                src="../pics/vk.png"
+              /><img class="tw contactsth" src="../pics/tw.png" />
+            </div>
+          </th>
+        </tr>
+      </table>
+    </footer>
+  </body>
+  <script src="./kabIsp.js"></script>
+</html>

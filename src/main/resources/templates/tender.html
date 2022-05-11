@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./mainMenu.css" />
+    <link rel="stylesheet" type="text/css" href="../nullstyle.css" />
+    <title>Tender</title>
+  </head>
+  <body class="bod">
+    <nav class="img">
+      <div class="left">
+        <div class="logo">
+          <img class="icon" src="../pics/logo.png" />
+          <div id="logo-text">EzTender</div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="main-nav">Главная</div>
+        <div class="katalog">Каталог исполнителей</div>
+        <div class="tender">Тендерная площадка</div>
+        <div class="lichn-kab">Личный кабинет</div>
+        <div class="sign">Войти →</div>
+      </div>
+    </nav>
+    <div class="tend-main">
+      <div class="title-kat">Тендерная площадка</div>
+      <div class="inner-tend">
+        <div class="titl">
+          Здесь вы можете объявить ваш тендер, указав все необходимые данные
+        </div>
+        <div>
+          <div class="tend-title">Укажите название:</div>
+          <input class="tend-inp" placeholder="Введите название тендера" />
+        </div>
+        <div>
+          <div class="tend-title">Укажите период показа:</div>
+          <div>С <input type="date" /> По <input type="date" /></div>
+        </div>
+        <div>
+          <div class="tend-title">Укажите город:</div>
+          <input class="tend-inp" placeholder="Введите название города" />
+        </div>
+        <div>
+          <div class="tend-title">Укажите цену:</div>
+          <input class="tend-inp" placeholder="Введите цену" />
+        </div>
+        <div>
+          <div class="tend-title">Добавьте файлы:</div>
+          <input class="tend-inp" type="file" />
+        </div>
+        <div class="btn-div"><button class="send-tender">Оправить</button></div>
+      </div>
+    </div>
+    <footer>
+      <table class="footer-contacts">
+        <tr>
+          <th class="contactsth">Контакты для частных клиентов</th>
+          <th class="contactsth">Контакты для бизнес-клиентов</th>
+        </tr>
+        <tr>
+          <th class="skiny contactsth">Городской и мобильный номер</th>
+          <th class="skiny contactsth">A1 MTS Life :)</th>
+          <th class="skiny contactsth">Мы в соцсетях</th>
+        </tr>
+        <tr class="a">
+          <th>
+            <div><img src="../pics/tel1.png" /></div>
+            <div class="numb">148</div>
+          </th>
+          <th>
+            <div><img src="../pics/tel2.png" /></div>
+            <div class="numb">5-146-728</div>
+          </th>
+          <th>
+            <div class="to">
+              <img class="fb contactsth" src="../pics/fb.png" />
+              <img class="inst contactsth" src="../pics/inst.png" /><img
+                class="vk contactsth"
+                src="../pics/vk.png"
+              /><img class="tw contactsth" src="../pics/tw.png" />
+            </div>
+          </th>
+        </tr>
+      </table>
+    </footer>
+  </body>
+  <script src="./tender.js"></script>
+</html>

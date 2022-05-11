@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./ispolnitel.css" />
+    <link rel="stylesheet" type="text/css" href="../nullstyle.css" />
+    <title>Tender</title>
+  </head>
+  <body>
+    <div class="window">
+      <!-- authorization -->
+      <div class="nav">
+        <div class="logo">
+          <img class="icon" src="../pics/logo.png" />
+          <div id="logo-text">EzTender</div>
+        </div>
+        <div class="reg">Вернуться →</div>
+      </div>
+      <div class="registration">
+        <div class="small-text">
+          Введите данные, чтобы зарегистрироваться как исполнитель:
+        </div>
+        <div class="login">
+          <label>Логин:</label>
+          <div>
+            <input
+              type="text"
+              class="input-login"
+              placeholder="Введите логин"
+            />
+          </div>
+        </div>
+
+        <div class="login">
+          <label>Город:</label>
+          <div>
+            <input type="text" placeholder="Введите город" />
+          </div>
+        </div>
+
+        <div class="label">Вид предпринимательства:</div>
+        <div class="rad">
+          <input
+            class="radi"
+            type="radio"
+            id="contactChoice1"
+            name="contact"
+            value="ИП"
+          />
+          <div for="contactChoice1">ИП</div>
+
+          <input
+            class="radi"
+            type="radio"
+            id="contactChoice2"
+            name="contact"
+            value="Физическое лицо"
+          />
+          <div for="contactChoice2">Физическое лицо</div>
+          <input
+            class="radi"
+            type="radio"
+            id="contactChoice3"
+            name="contact"
+            value="Юридическое лицо"
+          />
+          <div for="contactChoice3">Юридическое лицо</div>
+        </div>
+
+        <div class="password">
+          <label>Пароль:</label>
+          <div>
+            <input
+              type="password"
+              class="input-password"
+              placeholder="Введите пароль"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="password">
+            <label>Повторите пароль:</label>
+            <div>
+              <input
+                type="password"
+                class="input-password"
+                placeholder="Повторите пароль"
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="sign-btn btn">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
+    <script src="./ispReg.js"></script>
+  </body>
+</html>
